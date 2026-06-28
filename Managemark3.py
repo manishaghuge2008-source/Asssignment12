@@ -30,13 +30,13 @@ class Student:
         print("Average:", self.get_average())
 
 
-# Create student object
+
 name = input("Enter student name: ")
 roll_no = input("Enter roll number: ")
 
 s1 = Student(name, roll_no)
 
-# Add marks using user input
+
 for i in range(5):
     mark = input(f"Enter mark {i+1}: ")
     s1.add_mark(mark)
